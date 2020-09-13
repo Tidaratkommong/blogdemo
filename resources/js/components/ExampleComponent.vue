@@ -1,3 +1,6 @@
+@extends('layouts.app')
+
+@section('content')
 <template>
     <button @click="showAlert">Hello world</button>
 </template>
