@@ -1913,13 +1913,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   methods: {
     showAlert: function showAlert() {
       // Use sweetalert2
-      this.$swal("Hello Vue world!!!");
+      this.$swal("Hellolllllllll222222222llllll    world!!!");
     }
   }
 });
@@ -40698,7 +40696,9 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("button", { on: { click: _vm.showAlert } }, [_vm._v("Hello world")])
+  return _c("button", { on: { click: _vm.showAlert } }, [
+    _vm._v("hhhhhhhiiiiiiiiiiiiiii Hello world")
+  ])
 }
 var staticRenderFns = []
 render._withStripped = true

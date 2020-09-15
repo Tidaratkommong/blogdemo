@@ -1,18 +1,16 @@
-@extends('layouts.app')
 
-@section('content')
 <template>
-    <button @click="showAlert">Hello world</button>
+    <button @click="showAlert">hhhhhhhiiiiiiiiiiiiiii Hello world</button>
+       
 </template>
-
 <script>
 export default {
     methods: {
         showAlert() {
             // Use sweetalert2
-            this.$swal("Hello Vue world!!!");
+            this.$swal("Hellolllllllll222222222llllll    world!!!");
         },
     },
 };
 </script>
-@endsection
+
